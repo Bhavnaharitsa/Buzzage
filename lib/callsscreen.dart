@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-class callsscreen extends StatefulWidget {
+class CallScreen extends StatefulWidget {
   @override
-  _callsscreenState createState() => _callsscreenState();
+  _CallScreenState createState() => _CallScreenState();
 }
 
-class _callsscreenState extends State<callsscreen> {
+class _CallScreenState extends State<CallScreen> {
   @override
   Widget build(BuildContext context) {
     return new Center(

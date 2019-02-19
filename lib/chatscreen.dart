@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'chatpage.dart';
-class chatscreen extends StatefulWidget {
+class ChatScreen extends StatefulWidget {
   @override
-  _chatscreenState createState() => _chatscreenState();
+  _ChatScreenState createState() => _ChatScreenState();
 }
 
-class _chatscreenState extends State<chatscreen> {
+class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(itemCount: dummydata.length,

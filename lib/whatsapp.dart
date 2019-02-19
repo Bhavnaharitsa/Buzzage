@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/callsscreen.dart';
-import 'package:flutter_app/camerascreen.dart';
-import 'package:flutter_app/chatscreen.dart';
-import 'package:flutter_app/statusscreen.dart';
+import 'package:Buzzage/callsscreen.dart';
+import 'package:Buzzage/camerascreen.dart';
+import 'package:Buzzage/chatscreen.dart';
+import 'package:Buzzage/statusscreen.dart';
 
-class whatspp extends StatefulWidget {
+class Whatsapp extends StatefulWidget {
   @override
-  _whatsppState createState() => _whatsppState();
+  _WhatsappState createState() => _WhatsappState();
 }
 
-class _whatsppState extends State<whatspp> with SingleTickerProviderStateMixin {
+class _WhatsappState extends State<Whatsapp> with SingleTickerProviderStateMixin {
   TabController tab;
   @override
   void initState() {
@@ -43,10 +43,10 @@ class _whatsppState extends State<whatspp> with SingleTickerProviderStateMixin {
       body: new TabBarView(
         controller: tab,
         children: <Widget>[
-          new camerascreen(),
-          new chatscreen(),
-          new callsscreen(),
-          new statusscreen(),
+          new CameraScreen(),
+          new ChatScreen(),
+          new CallScreen(),
+          new StatusScreen(),
 
         ],
       ),
